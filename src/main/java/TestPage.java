@@ -11,7 +11,7 @@ public class TestPage
 
 {
     private WebDriver driver;
-
+// HÄr är ju sjukt bra att skriva en kommentar på!
 
     @Before
     public void setUp() {
@@ -49,8 +49,10 @@ public class TestPage
                 .LogOut()
                 .ClickYesPopUp()
                 .VerifyLandingPage();
-
-
     }
+//Här är oxå bra
 
+
+
+// Och här
 }
